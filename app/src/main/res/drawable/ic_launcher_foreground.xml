@@ -4,29 +4,24 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Pokeball top half -->
+    <!-- Pokeball top half (white) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M54,20 A34,34 0 0 1 88,54 L20,54 A34,34 0 0 1 54,20Z" />
-    <!-- Pokeball bottom half -->
+        android:pathData="M54,20 A34,34 0 0 1 88,54 L20,54 A34,34 0 0 1 54,20 Z" />
+    <!-- Pokeball bottom half (white) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M88,54 A34,34 0 0 1 20,54 Z"
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="1" />
-    <!-- Center band -->
-    <rect
-        android:fillColor="#333333"
-        android:left="20"
-        android:top="51"
-        android:right="88"
-        android:bottom="57" />
-    <!-- Center circle outline -->
+        android:pathData="M20,54 A34,34 0 0 0 88,54 Z" />
+    <!-- Center band (dark) -->
     <path
         android:fillColor="#333333"
-        android:pathData="M54,54 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
-    <!-- Center circle inner -->
+        android:pathData="M20,51 L88,51 L88,57 L20,57 Z" />
+    <!-- Center button outline (dark circle) -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M54,44 A10,10 0 1 1 53.999,44 Z" />
+    <!-- Center button inner (white circle) -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M54,54 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+        android:pathData="M54,48 A6,6 0 1 1 53.999,48 Z" />
 </vector>
